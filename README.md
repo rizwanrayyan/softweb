@@ -54,7 +54,6 @@ Publish the website in the given URL.
         align-items:center;
     }
     </style>
-
     </head>
     <body>
         <div class="home">
