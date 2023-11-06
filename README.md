@@ -30,6 +30,8 @@ Publish the website in the given URL.
 # HOME:
 
 ----
+
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -52,7 +54,6 @@ Publish the website in the given URL.
         align-items:center;
     }
     </style>
-
 </head>
     <body>
         <div class="home">
@@ -87,7 +88,7 @@ Publish the website in the given URL.
                     <img src="image 2.jpeg">
                     <img src="image4.jpeg">
                     <img src="/static/images/d.jpg">
-</center>
+                </center>
                 </div>
                 <div class="footer">
                 <footer style="color:white">
@@ -96,11 +97,13 @@ Publish the website in the given URL.
         </div>
     </body>
 </html>
+
 ----
 
 # PEOPLE:
 
 ----
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -124,8 +127,7 @@ Publish the website in the given URL.
         color:rgb(186, 139, 229);
         font-family:'Lucida Sans';
         font-size: 30px;
-        text-align:center;
-        
+        text-align:center; 
         }
         .content{
             border:2px solid rgb(140, 225, 140);
@@ -152,9 +154,7 @@ Publish the website in the given URL.
         .ceo{
             color: rgb(219, 108, 149);
             position:relative;
-            text-align:center;
-            
-            
+            text-align:center;   
         }
         .manph1{
             background-image: url(/static/images/b.jpg);
@@ -171,8 +171,7 @@ Publish the website in the given URL.
         .man1{
             color: rgb(224, 86, 176);
             position:relative;
-            text-align:center;
-            
+            text-align:center;  
         }
         .manph2{
             background-image: url(/static/images/c.jpg);
@@ -184,16 +183,13 @@ Publish the website in the given URL.
             width:20%;
             position:relative;
             margin-left:auto;
-            margin-right:auto;
-
-            
+            margin-right:auto;  
         }
         .man2{
             color: rgb(232, 105, 204);
             position:relative;
             text-align:center;
         }
-        
         .amph1{
             background-image: url(/static/images/d.jpg);
             background-size: 250px;
@@ -204,20 +200,13 @@ Publish the website in the given URL.
             width:20%;
             position:relative;
             margin-left:auto;
-            margin-right:auto;
-
-            
+            margin-right:auto;   
         }
         .am1{
             color: rgb(255, 0, 208)(255, 0, 179);
             position:relative;
             text-align:center;
         }
-
-        
-        
-        
-
         </style>
     </head>
     <body>
@@ -258,11 +247,7 @@ Publish the website in the given URL.
                     <br>
                     <div class="text"><p><b><u>Manager</u></b></p></div><br>
                     <div class="amph1"></div>
-                    <div class="am1"><p align="center"><b><h2>HUANG ZUI</h2></b></p></div>
-                    
-
-                    
-                    
+                    <div class="am1"><p align="center"><b><h2>HUANG ZUI</h2></b></p></div> 
                     <div class="text">Quality code for reliable future!<br>!</div>
                 </div>
                 <div class="footer">
@@ -272,6 +257,7 @@ Publish the website in the given URL.
         </div>
     </body>
 </html>
+
 ----
 
 
@@ -302,7 +288,6 @@ Publish the website in the given URL.
             font-family:'Lucida Sans';
             font-size: 30px;
             text-align:center;
-        
         }
         .content{
             border:3px solid rgb(214, 134, 195);
@@ -327,9 +312,7 @@ Publish the website in the given URL.
         .l1{
             color: rgb(126, 199, 226);
             position:relative;
-            right:380px;
-            
-            
+            right:380px;   
         }
         .ph2{
             background-image: url(/static/images/css.jpg);
@@ -340,15 +323,12 @@ Publish the website in the given URL.
             height:200px;
             width:30%;
             position:relative;
-            left: 50px;
-            
+            left: 50px;    
         }
         .l2{
             color: rgb(111, 176, 185)7, 244);
             position:relative;
             right:380px;
-
-        
         }
         .ph3{
             background-image: url(/static/images/web.jpg);
@@ -365,9 +345,7 @@ Publish the website in the given URL.
         .l3{
             color: rgb(152, 201, 229)5)
             position:relative;
-            right:380px;
-            
-            
+            right:380px;    
         }
         .ph4{
             background-image: url(/static/images/software.jpeg);
@@ -383,15 +361,12 @@ Publish the website in the given URL.
         .l4{
             color: rgb(68, 190, 204);
             position:relative;
-            right:300px;
-            
-            
+            right:300px;    
         }
         .bot{
             text-align:center;
             font-size:larger;
             color:magenta;
-
         }
         </style>
     </head>
@@ -427,10 +402,8 @@ Publish the website in the given URL.
                     <div class="l3"><p align="center"><b>web software<br><br><br><br></p></div>
                     <div class="ph4"></div>
                     <div class="l4"><p align="center"><b>product development<br><br><br><br></p></div>
-         
                 </div>
                 <div class="bot"><p>To Order Online: Call 9124445798</p></div>
-
                 <div class="footer">
                 <footer style="color:white">
                 Copyright &copy;2023 Developed by ALAGU NACHIYAR K</footer></div>
@@ -459,9 +432,7 @@ Publish the website in the given URL.
         font-size: 30px;
         text-align:center;
     }
-    
     </style>
-
     </head>
     <body>
         <div class="home">
@@ -487,7 +458,6 @@ Publish the website in the given URL.
                     <div class="text">
                     <p><b> Details about us as required
                     <h5>Do contact us if needed</h5></b></p>
-                    
                     </div>
                     <b><h2>Contact Information:</h2></b>
                     <p><b>&emsp;&ensp;Address:</b>
@@ -532,7 +502,6 @@ home.html
         align-items:center;
     }
     </style>
-
     </head>
     <body>
         <div class="home">
@@ -566,9 +535,7 @@ home.html
                     <img src="/static/images/a.jpeg">
                     <img src="/static/images/b.jpeg">
                     <img src="/static/images/c.jpeg">
-                    <img src="/static/images/d.jpg">
-                    
-                    
+                    <img src="/static/images/d.jpg">      
                 </center>
                 </div>
                 <div class="footer">
@@ -583,6 +550,7 @@ home.html
 # STYLES CSS:
 
 ----
+
 .home{
     height: 700px;
     width: 85%;
@@ -663,8 +631,7 @@ home.html
 }
 .contact:hover{
     background-color:darkmagenta;
-}
-        
+}        
 .h{
     height:20px;
     width:10%;
@@ -673,7 +640,6 @@ home.html
     left:200px;
     border:4px solid transparent;
     text-align:center;
-    
     padding:15px;
     font-family:'Algerian';
     font-size: large;  
@@ -690,7 +656,6 @@ home.html
     bottom: 1px;
     background-color: darkmagenta;
     text-align:center;
-
 }
 .title{
     border:2px solid rgb(175, 236, 233);
@@ -701,8 +666,7 @@ home.html
     text-align:center;
     font-family:'Alberian';
     margin-left:auto;
-    margin-right: auto;
-    
+    margin-right: auto;    
 }
 .content1{
     border:1px solid rgb(255, 0, 187);
@@ -712,7 +676,6 @@ home.html
     padding:10px;
     margin-left:auto;
     margin-right:auto;
-
 }
 
 ----
@@ -722,19 +685,23 @@ home.html
 
 # HOME:
 
-![Alt text](<output home.png>)
+![image](https://github.com/rizwanrayyan/softweb/assets/121215820/6424e8ef-ca45-4cea-a531-baf2ea15e450)
+
 
 # PEOPLE:
 
-![Alt text](<output people.png>)
+![image](https://github.com/rizwanrayyan/softweb/assets/121215820/14dc085a-516e-433b-a8bd-84849edc628a)
+
 
 # PRODUCT:
 
-![Alt text](<output product.png>)
+![image](https://github.com/rizwanrayyan/softweb/assets/121215820/1364140f-2784-4ac1-bebd-bf20d0439769)
+
 
 # CONTACT:
 
-![Alt text](<output contact.png>)
+![image](https://github.com/rizwanrayyan/softweb/assets/121215820/6aef6b88-e0e7-4d79-a0d2-14ab91c0d2c1)
+
 
 ## HTML VALIDATOR:
 
