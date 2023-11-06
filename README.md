@@ -54,6 +54,7 @@ Publish the website in the given URL.
         align-items:center;
     }
     </style>
+
     </head>
     <body>
         <div class="home">
@@ -87,7 +88,10 @@ Publish the website in the given URL.
                     <img src="image 1.jpeg"
                     <img src="image 2.jpeg">
                     <img src="image4.jpeg">
-                    <img src="/static/images/d.jpg">      
+                    <img src="/static/images/d.jpg">
+
+                    
+                    
                 </center>
                 </div>
                 <div class="footer">
@@ -97,7 +101,6 @@ Publish the website in the given URL.
         </div>
     </body>
 </html>
-
 ----
 
 
