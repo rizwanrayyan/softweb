@@ -1,4 +1,5 @@
 # Ex.07 Software Product Company Website
+# Date:28-10-2023
 ## AIM:
 To develop a static company website to display the softwares and services provided by the company.
 
@@ -26,15 +27,10 @@ Validate the HTML code.
 Publish the website in the given URL.
 
 ## PROGRAM:
-
-# HOME:
-
-----
-
-
+# Home:
+```
 <!DOCTYPE html>
 <html lang="en">
-    
     <head>
         <title>
             Home Page
@@ -55,6 +51,7 @@ Publish the website in the given URL.
         align-items:center;
     }
     </style>
+
     </head>
     <body>
         <div class="home">
@@ -85,9 +82,9 @@ Publish the website in the given URL.
                          GST Billing software | Supermarket software | Mobile shops | Restaurent management| And much more</p>
                     <br>
                 <center>
-                    <img src="image 1.jpeg"
-                    <img src="image 2.jpeg">
-                    <img src="image4.jpeg">
+                    <img src="/static/images/a.jpg">
+                    <img src="/static/images/b.jpg">
+                    <img src="/static/images/c.jpg">
                     <img src="/static/images/d.jpg">
 
                     
@@ -96,20 +93,190 @@ Publish the website in the given URL.
                 </div>
                 <div class="footer">
                 <footer style="color:white">
-                Copyright &copy;2023 Developed by ALAGU NACHIYAR K</footer></div>
+                Copyright &copy;2023 Developed by RIZWAN T</footer></div>
             </div>
         </div>
     </body>
 </html>
-----
-
-
-# PRODUCT:
-
-----
+```
+# People:
+```
 <!DOCTYPE html>
 <html lang="en">
-    
+    <head>
+        <title>
+            People
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/static/CSS/styles.css">
+        <style>
+        .home{
+            height: 3000px;
+            width: 85%;
+            border: 12px solid rgb(255, 0, 208);
+            padding-left:10px;
+            padding-right:10px;
+            margin-left: auto;
+            margin-right:auto;
+            background-color:rgb(149, 249, 249);
+        }
+        .text{
+        color:rgb(186, 139, 229);
+        font-family:'Lucida Sans';
+        font-size: 30px;
+        text-align:center;
+        
+        }
+        .content{
+            border:2px solid rgb(140, 225, 140);
+            background-color:rgb(145, 228, 224);
+            width:98%;
+            height:2690px;
+            padding:10px;
+            margin-left:auto;
+            margin-right:auto;
+        }
+        .ceoph{
+            background-image: url(/static/images/a.jpg);
+            background-size: 250px;
+            background-position-x: center;
+            background-repeat: no-repeat;
+            border:3px solid rgb(145, 255, 0);
+            height:300px;
+            width:20%;
+            position:relative;
+            left: 0px;
+            margin-left:auto;
+            margin-right: auto;
+        }
+        .ceo{
+            color: rgb(219, 108, 149);
+            position:relative;
+            text-align:center;
+            
+            
+        }
+        .manph1{
+            background-image: url(/static/images/b.jpg);
+            background-size: 250px;
+            background-position-x: center;
+            background-repeat: no-repeat;
+            border:1px solid black;
+            height:300px;
+            width:20%;
+            position:relative;
+            margin-left:auto;
+            margin-right:auto;            
+        }
+        .man1{
+            color: rgb(224, 86, 176);
+            position:relative;
+            text-align:center;
+            
+        }
+        .manph2{
+            background-image: url(/static/images/c.jpg);
+            background-size: 250px;
+            background-position-x: center;
+            background-repeat: no-repeat;
+            border:1px solid black;
+            height:300px;
+            width:20%;
+            position:relative;
+            margin-left:auto;
+            margin-right:auto;
+
+            
+        }
+        .man2{
+            color: rgb(232, 105, 204);
+            position:relative;
+            text-align:center;
+        }
+        
+        .amph1{
+            background-image: url(/static/images/d.jpg);
+            background-size: 250px;
+            background-position-x: center;
+            background-repeat: no-repeat;
+            border:1px solid black;
+            height:300px;
+            width:20%;
+            position:relative;
+            margin-left:auto;
+            margin-right:auto;
+
+            
+        }
+        .am1{
+            color: rgb(255, 0, 208)(255, 0, 179);
+            position:relative;
+            text-align:center;
+        }
+
+        
+        
+        
+
+        </style>
+    </head>
+    <body>
+        <div class="home">
+            <div class="header">
+                <header>
+                    <div class=logo></div>
+                    <div class=h>
+                    <a href="home.html" title="Home" style="color: rgb(232, 45, 163); text-decoration: none;"><b>Home</b></a></div>
+                    <div class="prod">
+                        <a href="products.html" title="Products" style="color: rgb(139, 0, 118), 0, 139); text-decoration: none;"><b>Products</b></a>
+                    </div>
+                    <div class="people">
+                        <a href="people.html" title="People" style="color:rgb(139, 0, 120); text-decoration: none;"><b>People</b></a>
+                    </div>
+                    <div class="contact">
+                        <a href="contact.html" title="Contact Us" style="color:rgb(139, 0, 127); text-decoration: none;"><b>Contact Us</b></a>
+                    </div>
+                </header>
+                <div class="title">
+                    <h1>People</h1>
+                </div><br>
+                <div class="content">
+                    <div class="text">
+                    <p>Board Members</p>
+                    <h4><u>Chairman</u></h4>
+                    </div>
+                    <div class="ceoph"></div>
+                    <div class="ceo"><p align="center"><b><h2>LING_CHI</h2></b></div>
+                    <br>
+                    <div class="text">
+                        <p><b><u>Head executives</u></b></p><br>
+                    </div>
+                    <div class="manph1"></div>
+                    <div class="man1"><p align="center"><b><h2>ZHEN_SHI</h2></b></p></div>
+                    <div class="manph2"></div>
+                    <div class="man2"><p><b><h2>KAI_HUEN</h2></b></p></div>
+                    <br>
+                    <div class="text"><p><b><u>Manager</u></b></p></div><br>
+                    <div class="amph1"></div>
+                    <div class="am1"><p align="center"><b><h2>HUANG ZUI</h2></b></p></div>
+                    
+
+                    
+                    
+                    <div class="text">Quality code for reliable future!<br>!</div>
+                </div>
+                <div class="footer">
+                <footer style="color:white">
+                Copyright &copy;2023 Developed by ALAGU NACHYAR K</footer></div>
+            </div>
+        </div>
+    </body>
+</html>
+```
+# Product:
+```
+<!DOCTYPE html>
+<html lang="en">
     <head>
         <title>
             Products
@@ -132,6 +299,7 @@ Publish the website in the given URL.
             font-family:'Lucida Sans';
             font-size: 30px;
             text-align:center;
+        
         }
         .content{
             border:3px solid rgb(214, 134, 195);
@@ -156,7 +324,9 @@ Publish the website in the given URL.
         .l1{
             color: rgb(126, 199, 226);
             position:relative;
-            right:380px;   
+            right:380px;
+            
+            
         }
         .ph2{
             background-image: url(/static/images/css.jpg);
@@ -167,12 +337,15 @@ Publish the website in the given URL.
             height:200px;
             width:30%;
             position:relative;
-            left: 50px;    
+            left: 50px;
+            
         }
         .l2{
             color: rgb(111, 176, 185)7, 244);
             position:relative;
             right:380px;
+
+        
         }
         .ph3{
             background-image: url(/static/images/web.jpg);
@@ -189,7 +362,9 @@ Publish the website in the given URL.
         .l3{
             color: rgb(152, 201, 229)5)
             position:relative;
-            right:380px;    
+            right:380px;
+            
+            
         }
         .ph4{
             background-image: url(/static/images/software.jpeg);
@@ -205,12 +380,15 @@ Publish the website in the given URL.
         .l4{
             color: rgb(68, 190, 204);
             position:relative;
-            right:300px;    
+            right:300px;
+            
+            
         }
         .bot{
             text-align:center;
             font-size:larger;
             color:magenta;
+
         }
         </style>
     </head>
@@ -246,8 +424,10 @@ Publish the website in the given URL.
                     <div class="l3"><p align="center"><b>web software<br><br><br><br></p></div>
                     <div class="ph4"></div>
                     <div class="l4"><p align="center"><b>product development<br><br><br><br></p></div>
+         
                 </div>
                 <div class="bot"><p>To Order Online: Call 9124445798</p></div>
+
                 <div class="footer">
                 <footer style="color:white">
                 Copyright &copy;2023 Developed by ALAGU NACHIYAR K</footer></div>
@@ -255,14 +435,11 @@ Publish the website in the given URL.
         </div>
     </body>
 </html>
-----
-
-# CONTACT:
-
-----
+```
+# Contact:
+```
 <!DOCTYPE html>
 <html lang="en">
-    
     <head>
         <title>
             Contact Us
@@ -277,7 +454,9 @@ Publish the website in the given URL.
         font-size: 30px;
         text-align:center;
     }
+    
     </style>
+
     </head>
     <body>
         <div class="home">
@@ -303,6 +482,7 @@ Publish the website in the given URL.
                     <div class="text">
                     <p><b> Details about us as required
                     <h5>Do contact us if needed</h5></b></p>
+                    
                     </div>
                     <b><h2>Contact Information:</h2></b>
                     <p><b>&emsp;&ensp;Address:</b>
@@ -324,13 +504,78 @@ Publish the website in the given URL.
         </div>
     </body>
 </html>
+home.html
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Home Page
+        </title>
+        <meta name="viewport" 
+         content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/static/CSS/styles.css">
+    <style>
+    .text{
+        color:rgb(139, 76, 199);
+        font-family:'Lucida Sans';
+        font-size: 30px;
+        text-align:center;
+    }
+    img{
+        height: 150px;
+        width: 150px;
+        align-items:center;
+    }
+    </style>
 
-----
-
-# STYLES CSS:
-
-----
-
+    </head>
+    <body>
+        <div class="home">
+            <div class="header">
+                <header>
+                    <div class=logo></div>
+                    <div class=h>
+                    <a href="home.html" title="Home" style="color: darkred; text-decoration: none;"><b>Home</b></a></div>
+                    <div class="prod">
+                        <a href="products.html" title="Products" style="color: darkred; text-decoration: none;"><b>Products</b></a>
+                    </div>
+                    <div class="people">
+                        <a href="people.html" title="People" style="color:darkred; text-decoration: none;"><b>People</b></a>
+                    </div>
+                    <div class="contact">
+                        <a href="contact.html" title="Contact Us" style="color:darkred; text-decoration: none;"><b>Contact Us</b></a>
+                    </div>
+                </header>
+                <div class="title">
+                    <h1>LEO SOFTWARE COMPANY</h1>
+                </div><br>
+                <div class="content">
+                    <div class="text">
+                    <marquee><b>Rasing Software Developer</b></marquee>
+                    <p style="color:purple; font-family:'Tahoma'; font-size:20px;"> This is the Official Website of our Software company!</p>
+                    </div>
+                    <p>Leading software developer <span style="background-color:rgb(235, 151, 207))">Nizso solutions</span>
+                         GST Billing software | Supermarket software | Mobile shops | Restaurent management| And much more</p>
+                    <br>
+                <center>
+                    <img src="/static/images/a.jpeg">
+                    <img src="/static/images/b.jpeg">
+                    <img src="/static/images/c.jpeg">
+                    <img src="/static/images/d.jpg">
+                    
+                    
+                </center>
+                </div>
+                <div class="footer">
+                <footer style="color:white">
+                Copyright &copy;2023 Developed by ALAGU NACHIYAR K</footer></div>
+            </div>
+        </div>
+    </body>
+</html>
+```
+# StyleCss:
+```
 .home{
     height: 700px;
     width: 85%;
@@ -411,7 +656,8 @@ Publish the website in the given URL.
 }
 .contact:hover{
     background-color:darkmagenta;
-}        
+}
+        
 .h{
     height:20px;
     width:10%;
@@ -420,6 +666,7 @@ Publish the website in the given URL.
     left:200px;
     border:4px solid transparent;
     text-align:center;
+    
     padding:15px;
     font-family:'Algerian';
     font-size: large;  
@@ -436,6 +683,7 @@ Publish the website in the given URL.
     bottom: 1px;
     background-color: darkmagenta;
     text-align:center;
+
 }
 .title{
     border:2px solid rgb(175, 236, 233);
@@ -446,7 +694,8 @@ Publish the website in the given URL.
     text-align:center;
     font-family:'Alberian';
     margin-left:auto;
-    margin-right: auto;    
+    margin-right: auto;
+    
 }
 .content1{
     border:1px solid rgb(255, 0, 187);
@@ -456,34 +705,22 @@ Publish the website in the given URL.
     padding:10px;
     margin-left:auto;
     margin-right:auto;
+
 }
-
-----
-
+```
 
 ## OUTPUT:
-
-# HOME:
-
-![image](https://github.com/rizwanrayyan/softweb/assets/121215820/6424e8ef-ca45-4cea-a531-baf2ea15e450)
-
-
-# PEOPLE:
-
-![image](https://github.com/rizwanrayyan/softweb/assets/121215820/14dc085a-516e-433b-a8bd-84849edc628a)
-
-
-# PRODUCT:
-
-![image](https://github.com/rizwanrayyan/softweb/assets/121215820/1364140f-2784-4ac1-bebd-bf20d0439769)
+# Home:
+![Screenshot 2023-11-05 154813](https://github.com/Nachiyarr/softweb/assets/113497340/a67706a6-4b54-47a5-a24e-a28a9885e921)
+# People:
+![Screenshot 2023-11-05 154914](https://github.com/Nachiyarr/softweb/assets/113497340/6f8ff38a-512a-44c9-8f03-a6d56aeca62e)
+# Product:
+![Screenshot 2023-11-05 160926](https://github.com/Nachiyarr/softweb/assets/113497340/77da6bde-e8cc-4c7f-b825-04a6b53d131f)
+# Contact:
+![Screenshot 2023-11-05 155023](https://github.com/Nachiyarr/softweb/assets/113497340/37acb29d-35d5-4dd0-9d67-2e546bef78d2)
 
 
-# CONTACT:
 
-![image](https://github.com/rizwanrayyan/softweb/assets/121215820/6aef6b88-e0e7-4d79-a0d2-14ab91c0d2c1)
-
-
-## HTML VALIDATOR:
 
 
 ## RESULT:
